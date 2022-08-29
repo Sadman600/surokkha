@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import navlogo from '../../Assets/images/nav-logo.png';
 const Navbar = () => {
     return (
@@ -21,13 +21,13 @@ const Navbar = () => {
                         </a>
                         {/* <!-- Left links --> */}
                         <ul class="navbar-nav flex flex-col pl-0 list-style-none ml-auto">
-                            
+
                             <li class="nav-item pr-2">
-                                
+
                                 <Link to='/' class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" >Home</Link>
                             </li>
                             <li class="nav-item pr-2">
-                                
+
                                 <a class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="#">Registration</a>
                             </li>
                             <li class="nav-item pr-2">
